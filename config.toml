@@ -1,0 +1,16 @@
+baseURL = "http://www.christianryding.com"
+languageCode = "en-us"
+title = "System Developer"
+theme = "hyde-hyde"
+
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    
+    url = "/portfolio/"
+
+[params.social]
+	facebook = "christianryding"
+  	linkedin = "christianryding"
+  	github = "christianryding"
+
