@@ -13,10 +13,15 @@ p  {
     font-size: 160%;
 }
 
-
 .wrapper{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;    
+}
+
+.wrapper > div{
     background: lightgrey;
     padding: 1em;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
+}
+.wrapper > div:nth-child(odd){
+    background: red;
 }
