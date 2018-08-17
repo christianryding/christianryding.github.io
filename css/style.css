@@ -23,5 +23,5 @@ p  {
     padding: 1em;
 }
 .wrapper > div:nth-child(odd){
-    background: red;
+    background: white;
 }
