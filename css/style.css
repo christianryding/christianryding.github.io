@@ -1,19 +1,22 @@
  body{
-    background-color: #ffffff;
-    max-width: 900px;
-    max-height: 2000px;
-    margin: auto;
+     background-image: url("../images/maik-jonietz-535261-unsplash.jpg"); 
+     background-repeat: repeat;
+     background-size: 100%;
+
+     max-width: 900px;
+     max-height: 2000px;
+     margin: auto;
  }
 
  header{
-     background-color: #8080ff;
+     background-color: white;
      padding: 30px;
      text-align: center;
      font-size: 35px;
      color: white;
  }
 footer{
-    background-color: #8080ff;
+    background-color: white;
     padding: 10px;
     text-align: center;
     color: white;
