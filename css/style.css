@@ -1,19 +1,44 @@
- body {
-    background-color: ivory;
+ body{
+    background-color: #ffffff;
     max-width: 900px;
     max-height: 2000px;
     margin: auto;
  }
 
-h1 {
-    color: blue;
-    font-family: verdana;
-    font-size: 300%;
+ header{
+     background-color: #8080ff;
+     padding: 30px;
+     text-align: center;
+     font-size: 35px;
+     color: white;
+ }
+footer{
+    background-color: #8080ff;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
-p  {
-    color: red;
+
+
+h1{
+    color: black;
+    font-family: verdana;
+    font-size: 100%;
+}
+h2{
+    color: black;
+    font-family: verdana;
+    font-size: 100%;
+}
+h3{
+    color: black;
+    font-family: verdana;
+    font-size: 80%;
+}
+p{
+    color: black;
     font-family: courier;
-    font-size: 160%;
+    font-size: 100%;
 }
 
 .wrapper{
@@ -21,11 +46,11 @@ p  {
     grid-template-columns: 50% 50%;    
 }
 .wrapper > div{
-    background: white;
+    background: green;
     padding: 1em;
 }
 .wrapper > div:nth-child(odd){
-    background: white;
+    background: orange;
 }
 
 
