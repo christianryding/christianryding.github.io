@@ -19,7 +19,7 @@ footer{
 /*containers*/
 @media(min-width:720px){
     .container_1{
-/*	border: 10px solid rgba(255,255,255,0);*/
+	border: 10px solid rgba(255,255,255,0);
 	display:flex;
 	width: 40%;
 	align-items: stretch;
@@ -27,7 +27,7 @@ footer{
 	flex-wrap:wrap;
     }
     .container_2{
-/*	border: 10px solid rgba(255,255,255,0);*/
+	border: 10px solid rgba(255,255,255,0);
 	display:flex;
 	width: 40%;
 	align-items: stretch;
