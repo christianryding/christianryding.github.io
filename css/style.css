@@ -38,7 +38,7 @@ footer{
 
 /*borders for containers*/
 .container_1 div, .container_2 div{
-  /*  border: 10px solid rgba(255,255,255,0);*/
+    border: 10px solid rgba(255,255,255,0);
     padding: 20px;
 }
 
