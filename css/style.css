@@ -4,9 +4,8 @@ main{
     background-size: 100%;
 }
 header{
-    height: 130px;
+    height: 100px;
     background-color: white;
-    padding: 20px;
     text-align: center;
 }
 footer{
@@ -18,124 +17,50 @@ footer{
 /*containers*/
 @media(min-width:720px){
     .container_1{
-	border: 10px solid rgba(255,255,255,0);
+	border: 20px solid rgba(255,255,255,0);
 	display:flex;
-	width: 40%;
-	align-items: stretch;
-	justify-content: space-evenly;
-	flex-wrap:wrap;
-    }
-    .container_2{
-	border: 10px solid rgba(255,255,255,0);
-	display:flex;
-	width: 40%;
-	align-items: stretch;
-	justify-content: space-evenly;
-	flex-wrap:wrap;
+	flex-direction: column;
+	justify-content: center;
     }
 }
-
-.education{
-    text-align: center;
-    flex:1;
-    order:2;
-    background: darkblue;
-    font-size: 40px;
-    padding: 20px;
-    text-decoration: none;
-}
-
-
-
-
-
 
 /*borders for containers*/
-.container_1 div, .container_2 div{
+.container_1 div{
     border: 10px solid rgba(255,255,255,0);
-    padding: 20px;
+    padding: 10px;
+}
+.box div{
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
 }
 
-/* project boxes*/
-.project_box{
-    text-align: center;
-    flex:3;
-    order:1;
-    background: lightgrey;
-}
-.project1_box{
-    text-align: center;
-    flex:1;
-    order:2;
-    background: orange;
-} 
-.project2_box{
-    text-align: center;
-    flex:1;
-    order:3;
-    background: blue;
-}  
-.project3_box{
-    text-align: center;
-    flex:1;
-    order:4;
-    color: white;
-    background-image: url("../images/maik-jonietz-535261-unsplash.jpg"); 
-    background-repeat: repeat;
-    background-size: 100%;
-}
-
-
-
-
-/* contact boxes*/
-.contact_box{
-    padding: 20px;
-    text-align: center;
-    flex:4;
-    order:1;
-    background: lightgrey;
- }
-.envelope {
-    padding: 20px;
-    font-size: 40px;
-    text-decoration: none;
-    text-align: center;
-    flex:1;
-    order:2;
-    background: #dd4b39;
-    color: white;
-}
-.linkedin {
-    padding: 20px;
-    font-size: 40px;
-    text-align: center;
-    text-decoration: none;
-    flex:1;
-    order:3;
-    background: #007bb5;
-}
-.github {
-    flex:1;
-    order:4;
-    padding: 20px;
-    font-size: 40px;
-    text-align: center;
-    text-decoration: none;
-    background: black;
-}
+/* font awesome*/
 .fa:hover {
     opacity: 0.7;
 }
 .fa-envelope {
-    background: #dd4b39;
     color: white;
+    background: red;
 }
 .fa-linkedin {
-    background: #007bb5;
     color: white;
+    background: #007bb5;
 }
 .fa-github {
-    background: black;
     color: white;
+    background: black
 }
+.fa-graduation-cap {
+    color: white;
+    background: blue;
+    
+}
+.fa-info-circle{
+    color: black;
+    background: white;
+}
+
+
+
+
