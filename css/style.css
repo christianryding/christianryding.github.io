@@ -1,10 +1,3 @@
- body{
-/*     background-image: url("../images/maik-jonietz-535261-unsplash.jpg"); 
-     background-repeat: repeat;
-     background-size: 100%;
-  */
-
- }
  header{
      background-color: white;
      padding: 30px;
@@ -23,32 +16,59 @@ footer{
     right: 0;
 }
 
+/*containers*/
 @media(min-width:720px){
     .container_1{
 	display:flex;
+	width: 40%;
+	align-items: stretch;
+	justify-content: center;
 	flex-wrap:wrap;
-	justify-content:center;
     }
     .container_2{
 	display:flex;
-	flex-wrap: wrap;
-	justify-content:center;
+	/*flex-wrap: wrap;*/
     }
 }
 
-/*borders*/
+/*borders for containers*/
 .container_1 div, .container_2 div{
     border: 2px white solid;
     padding: 20px;
 }
 
-.container_1_box{
-    flex-basis: 23%;
+.project_box{
     text-align: center;
-    height: 250px;
-    background: blue;
-
+    flex:3;
+    order:1;
+    background: lightblue;
+    width: 20px;
 }
+.project1_box{
+    text-align: center;
+    flex:1;
+    order:2;
+    background: orange;
+} 
+.project2_box{
+    text-align: center;
+    flex:1;
+    order:3;
+    background: blue;
+}  
+.project3_box{
+    text-align: center;
+    flex:1;
+    order:4;
+    background-image: url("../images/maik-jonietz-535261-unsplash.jpg"); 
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+
+
+
+
 .container_2_box{
     flex-basis: 23%;
     text-align: center;
