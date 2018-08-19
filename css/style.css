@@ -43,17 +43,16 @@ footer{
 }
 
 .container_1_box{
-    flex-basis: 25%;
+    flex-basis: 23%;
     text-align: center;
-    align-items: center;
-    height: 300px;
+    height: 250px;
     background: blue;
 
 }
 .container_2_box{
-    flex-basis: 25%;
+    flex-basis: 23%;
     text-align: center;
-    height: 300px;
+    height: 250px;
     background: red;
 }
 
