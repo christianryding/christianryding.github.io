@@ -1,3 +1,9 @@
+main{
+    background-image: url("../images/maik-jonietz-535261-unsplash.jpg"); 
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
 header{
     height: 130px;
     background-color: white;
@@ -13,6 +19,7 @@ footer{
 /*containers*/
 @media(min-width:720px){
     .container_1{
+	border: 10px solid rgba(255,255,255,0);
 	display:flex;
 	width: 40%;
 	align-items: stretch;
@@ -20,6 +27,7 @@ footer{
 	flex-wrap:wrap;
     }
     .container_2{
+	border: 10px solid rgba(255,255,255,0);
 	display:flex;
 	width: 40%;
 	align-items: stretch;
@@ -30,7 +38,7 @@ footer{
 
 /*borders for containers*/
 .container_1 div, .container_2 div{
-    border: 2px white solid;
+    border: 10px solid rgba(255,255,255,0);
     padding: 20px;
 }
 
@@ -40,8 +48,7 @@ footer{
     flex:3;
     order:1;
     background: lightblue;
-    width: 20px;
-}
+   }
 .project1_box{
     text-align: center;
     flex:1;
@@ -73,8 +80,7 @@ footer{
     flex:4;
     order:1;
     background: lightblue;
-    width: 20px;
-}
+ }
 .envelope {
     padding: 20px;
     font-size: 40px;
@@ -88,7 +94,6 @@ footer{
 .linkedin {
     padding: 20px;
     font-size: 40px;
-    width: 50px;
     text-align: center;
     text-decoration: none;
     flex:1;
