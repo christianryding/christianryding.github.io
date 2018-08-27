@@ -11,17 +11,19 @@ header{
 }
 
 footer {
-    padding-top: 120px;
     display: flex;
-    justify-content: center;
     background-color: white;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: 0;
+    justify-content: center;
 }
 
 @media(min-width:720px){
     .container_profiles{
 	display: flex;
 	justify-content: center;
-
     }
 }
 
