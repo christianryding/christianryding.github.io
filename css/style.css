@@ -12,12 +12,12 @@ header{
 
 footer {
     display: flex;
+    justify-content: center;
     background-color: white;
     position: absolute;
     left:0;
     right:0;
     bottom: 0;
-    justify-content: center;
 }
 
 @media(min-width:720px){
@@ -28,7 +28,8 @@ footer {
 }
 
 .container_profiles div{
-    padding: 52px;
+    padding-right: 70px;
+    padding-left: 70px;
 }
 
 .text{
@@ -38,5 +39,5 @@ footer {
 }
 
 .icon:hover{
-    opacity: 0.7;
+    opacity: 0.6;
 }
