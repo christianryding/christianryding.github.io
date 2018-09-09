@@ -12,6 +12,18 @@ html,body{
     padding-bottom: 250px;
 }
 
+#header h1{
+  color: black;
+  font-size: 30px;
+  font-family: Georgia, serif;
+}
+
+#header p{
+  color: black;
+  font-size: 26px;
+  font-family: Georgia, serif;
+}
+
 /* copyright at bottom */
 #copyright {
     background-color: #f2f2f2;
