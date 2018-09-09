@@ -9,18 +9,13 @@ html,body{
     background-color: white;
     text-align: left;
     padding-left: 70px;
-    padding-bottom: 250px;
+    padding-bottom: 180px;
 }
 
+/* name */
 #header h1{
   color: black;
   font-size: 30px;
-  font-family: Georgia, serif;
-}
-
-#header p{
-  color: black;
-  font-size: 26px;
   font-family: Georgia, serif;
 }
 
